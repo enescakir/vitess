@@ -1,5 +1,5 @@
 name: {{.Name}}
-on: [push, pull_request]
+on: []
 
 permissions: read-all
 

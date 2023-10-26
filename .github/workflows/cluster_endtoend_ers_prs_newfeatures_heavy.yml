@@ -1,7 +1,7 @@
 # DO NOT MODIFY: THIS FILE IS GENERATED USING "make generate_ci_workflows"
 
 name: Cluster (ers_prs_newfeatures_heavy)
-on: [push, pull_request]
+on: []
 concurrency:
   group: format('{0}-{1}', ${{ github.ref }}, 'Cluster (ers_prs_newfeatures_heavy)')
   cancel-in-progress: true

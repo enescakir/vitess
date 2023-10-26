@@ -1,5 +1,5 @@
 name: {{.Name}}
-on: [push, pull_request]
+on: []
 concurrency:
   group: format('{0}-{1}', ${{"{{"}} github.ref {{"}}"}}, '{{.Name}}')
   cancel-in-progress: true
